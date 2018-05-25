@@ -1,1 +1,25 @@
-/* CSS */
+/***********************
+		General
+***********************/
+body {
+	background-color: #d9d9d9;
+}
+
+img {
+	max-width: 100%;
+}
+
+h1 {
+	font-size: 6em;
+}
+
+a, p, h1 {
+	font-family: 'Quicksand', sans-serif;
+}
+
+/***********************
+		Header
+***********************/
+.mugshot {
+	border-radius: 50%;
+}
