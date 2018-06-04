@@ -34,6 +34,7 @@ a, p, h1 {
 ***********************/
 header {
 	padding-top: 75%;
+	background: url("background.png");
 }
 
 .mugshot {
