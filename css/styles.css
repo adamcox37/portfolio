@@ -33,7 +33,7 @@ a, p, h1 {
 		Header
 ***********************/
 header {
-	padding-top: 75%;
+	/*margin-top: 50%;*/
 	background: url("background.png");
 }
 
@@ -48,12 +48,41 @@ header {
 	text-align: center;
 }
 
-.headerLinks {
+/*** Fixed Navbar ***/
+#navbar {
+	overflow: hidden;
 	background-color: black;
-	padding: 10px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	padding: 10px;
 }
+
+/* Page content */
+.content {
+	padding: 10px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 97%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+	padding-top: 60px;
+}
+
+/*** Body ***/
+.bio {
+	margin: 5%;
+}
+
+.projects {
+	margin: auto;
+}
+
 
 /***********************
 		Footer
