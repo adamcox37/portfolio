@@ -33,8 +33,6 @@ a, p, h1 {
 		Header
 ***********************/
 header {
-	/*margin-top: 50%;*/
-	background: url("background.png");
 }
 
 .mugshot {
@@ -75,12 +73,17 @@ header {
 }
 
 /*** Body ***/
-.bio {
+.bio, .talk{
 	margin: 5%;
 }
 
 .projects {
 	margin: auto;
+}
+
+.socialLinks {
+	display: flex;
+	justify-content: space-around;
 }
 
 
