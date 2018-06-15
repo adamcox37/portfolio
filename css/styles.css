@@ -32,7 +32,16 @@ a, p, h1 {
 /***********************
 		Header
 ***********************/
-header {
+.imgContainer {
+	background-image: url(../img/background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.innerContainer {
+	padding-top: 25%
 }
 
 .mugshot {
@@ -44,6 +53,7 @@ header {
 
 .title {
 	text-align: center;
+	margin-top: -50px;
 }
 
 /*** Fixed Navbar ***/
@@ -51,7 +61,7 @@ header {
 	overflow: hidden;
 	background-color: black;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	padding: 10px;
 }
 
