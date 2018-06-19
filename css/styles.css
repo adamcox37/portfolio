@@ -93,7 +93,12 @@ a, p, h1 {
 
 .socialLinks {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+
+.socialLinks img {
+	max-width: 50%;
 }
 
 
@@ -105,3 +110,28 @@ footer {
 	display: flex;
 	justify-content: center;
 }
+
+/***********************
+		Media Queries
+***********************/
+
+@media (max-width: 599px) {
+	/* body styles */
+	h1 {
+		font-size: 4em;
+	}
+
+	.title {
+		margin-top: auto;
+	}
+}
+
+
+
+
+
+
+
+
+
+
