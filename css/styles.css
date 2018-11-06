@@ -87,7 +87,7 @@ a, p, h1, h2 {
 		Content
 ***********************/
 /** About **/
-.bio, .talk, .grid{
+.bio, .talk, .grid, .socialLinks{
 	margin: 5%;
 }
 
@@ -139,12 +139,18 @@ a, p, h1, h2 {
 /** Social **/
 .socialLinks {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	padding-bottom: 50px;
+	padding-left: 6.5%;
 }
 
 .socialLinks img {
 	max-width: 50%;
+}
+
+.top {
+	width: 128px;
+	border-radius: 50%;
 }
 
 
@@ -179,6 +185,11 @@ footer {
 
 	.middle, {
 		visibility: hidden;
+	}
+
+	.socialLinks {
+		justify-content: space-between;
+		padding-left: 10%;
 	}
 }
 
