@@ -167,7 +167,7 @@ footer {
 		Media Queries
 ***********************/
 
-@media (max-width: 599px) {
+@media (max-width: 479px) {
 	/* body styles */
 	h1 {
 		font-size: 4em;
